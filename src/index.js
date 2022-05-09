@@ -1,4 +1,4 @@
-import './style/style.css';
+import './style.css';
 import createDomElement from './createDomElement';
 import Keyboard from './Keyboard';
 
