@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", "sans-serif";
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.textarea {
+  font-family: "Roboto", "sans-serif";
+  overflow: hidden;
+  width: 700px;
+  height: 200px;
+  padding: 10px;
+}
+
+.description {
+  margin: 10px 0;
+}
+
+.keyboard {
+  background: aliceblue;
+  margin: 10px auto;
+  padding: 15px;
+  border: black 10px solid;
+  border-radius: 40px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.key {
+  background: orchid;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 3px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  box-shadow: fuchsia 1px 2px;
+  transition: all 0.1s ease-in;
+}
+
+.backspace, .capslock, .ShiftLeft {
+  width: 100px;
+}
+
+.tab {
+  width: 50px;
+}
+
+.enter, .ShiftRight {
+  width: 97px;
+}
+
+.space {
+  width: 355px;
+}
+
+.hover {
+  background: #ff7cfb;
+}
+
+.active {
+  background: #ff0bb5;
+  border-radius: 40px;
+}
+
+.caps {
+  background: #ff0bb5;
+  border-radius: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
